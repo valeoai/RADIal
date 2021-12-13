@@ -2,7 +2,7 @@
 
 # Latest news:
 **RADIal is available now!**
-However, because we are currently working on the data anonymization, we provide for now a low resolution and blurred video stream. The anonymized data is planned to be updated by **2022, February*. 
+However, because we are currently working on the data anonymization, we provide for now a low resolution preview video stream. The full resolution will be provided once the anonymization is completed, planned by **2022, February**. 
 
 
 # RADIal dataset
@@ -28,7 +28,7 @@ Central  to  the RADIal  dataset,   our  high-definition  radar  is  composed  o
 # Dataset structure
 RADIal is a unique folder containing all the recorded sequences. Each sequence is a folder containing:
 * A preview video of the scene (low resolution);
-* The camera data compressed in MJPEG format;
+* The camera data compressed in MJPEG format (**will be released by 2022, February**);
 * The Laser Scanner point cloud data saved in a binary file;
 * The ADC radar data saved in a binary file. There are 4 files in total, one file for each radar chip, each chip containing 4 Rx antennas;
 * The GPS data saved in ASCII format
