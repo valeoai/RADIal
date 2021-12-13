@@ -1,3 +1,5 @@
+[![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
+
 <p align="center">
   <img src="images/RADIal_teaser.png">
 </p>
