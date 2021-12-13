@@ -1,17 +1,12 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
-<p align="center">
-  <img src="images/RADIal_teaser.png">
-</p>
-
 # Latest news:
-RADIal will be released on **2022, January 28th**. We are currently working on the data anonymization.
-However, we provide now the dataset version used in 'citation du papier' saved as a zip file (see the download section). 
+**RADIal is available now!**
+However, because we are currently working on the data anonymization, we provide for now a low resolution and blurred video stream. The anonymized data is planned to be updated by **2022, February*. 
+
 
 # RADIal dataset
 RADIal stands for “Radar,  Lidar et  al.” It's a collection of 2-hour of raw  data  from  synchronized  automotive-grade  sensors (camera,  laser,  High Definition  radar)  in  various  environments  (citystreet,  highway,  countryside  road) and comes with GPS and vehicle’s CAN traces.
-
-mettre un gif
 
 RADIal contains 91 sequences of 1 to 4 minutes in duration, for a total of 2 hours. These sequences are categorized in highway, country-side and city driving. The distribution of the sequences is indicated in the figure below. Each  sequence  contains raw  sensor signals recorded  with their native frame rate. There are approximately 25,000 frames with the three sensors synchronized, out of which 8,252 are labelled with a total of 9,550 vehicles.<br/>
 
@@ -40,8 +35,8 @@ RADIal is a unique folder containing all the recorded sequences. Each sequence i
 * The CAN traces of the vehicle saved in binary format
 * And finally, a log file that provides the timestamp of each individual sensor event.
 
-We provide in a separated repository a python library [DBReader](https://pages.github.com/) to read the data.
-Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided too an optimized python library [HDR_SignalProcessing](https://pages.github.com/) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
+We provide in a python library [DBReader](https://pages.github.com/) to read the data.
+Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided too an optimized python library [SignalProcessing](https://pages.github.com/) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
 
 # Labels
 Out of the 25,000 synchronized frames, 8,252 frames are labelled.
@@ -62,6 +57,3 @@ Labels for the Free-driving-space is provided as a segmentaion mask saved in a p
 ```
 $ wget https://www.dropbox.com/s/ubbwvdyskrkv7dn/RADIal_extract.zip?dl=0
 ```
-
-# Citation
-
