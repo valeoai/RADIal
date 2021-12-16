@@ -55,5 +55,7 @@ Labels for the Free-driving-space is provided as a segmentaion mask saved in a p
 
 # Download instructions
 ```
-$ wget https://www.dropbox.com/s/ubbwvdyskrkv7dn/RADIal_extract.zip?dl=0
+$ wget -c -i download_urls.txt -P your_target_path
+$ unzip 'your_target_path/*.zip' -d your_target_path
+$ del -Rf your_target_path/*.zip
 ```

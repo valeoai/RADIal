@@ -1,0 +1,11 @@
+VERSION ""
+
+BO_ 485 Steering_Wheel_Angle: 8 ECU1
+ SG_ Steering_Wheel_Angle_deg : 15|16@0- (0.0625,0) [-2048|2047.9375] "deg"  tested
+
+BO_ 489 Vehicle_Yaw_Rate: 8 ECU2
+ SG_ YawRate_deg : 35|12@0- (0.0625,0) [-128|127.9375] "deg/sec"  tested
+
+BO_ 1001 Vehicle_Speed: 8 ECU3
+ SG_ Speed_kph : 6|15@0+ (0.015625,0) [0|511.984375] "km / h"  tested
+
