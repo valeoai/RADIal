@@ -57,5 +57,5 @@ Labels for the Free-driving-space is provided as a segmentaion mask saved in a p
 ```
 $ wget -c -i download_urls.txt -P your_target_path
 $ unzip 'your_target_path/*.zip' -d your_target_path
-$ del -Rf your_target_path/*.zip
+$ rm -Rf your_target_path/*.zip
 ```
