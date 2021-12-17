@@ -58,7 +58,7 @@ To download the raw dataset, please follow these instructions.
 ```
 $ wget -c -i download_urls.txt -P your_target_path
 $ unzip 'your_target_path/*.zip' -d your_target_path
-$ del -Rf your_target_path/*.zip
+$ rm -Rf your_target_path/*.zip
 ```
 You will have then to use the SignalProcessing library to generate data for each modalities uppong your need.
 
