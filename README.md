@@ -1,7 +1,7 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
 # Latest news:
-**RADIal is available now!**
+**RADIal is available now! Check the download section.**
 However, because we are currently working on the data anonymization, we provide for now a low resolution preview video stream. The full resolution will be provided once the anonymization is completed, planned by **2022, February**. 
 
 
@@ -35,8 +35,8 @@ RADIal is a unique folder containing all the recorded sequences. Each sequence i
 * The CAN traces of the vehicle saved in binary format
 * And finally, a log file that provides the timestamp of each individual sensor event.
 
-We provide in a python library [DBReader](https://pages.github.com/) to read the data.
-Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided too an optimized python library [SignalProcessing](https://pages.github.com/) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
+We provide in a Python library [DBReader](https://github.com/valeoai/RADIal/tree/main/DBReader) to read the data.
+Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided too an optimized Python library [SignalProcessing](https://github.com/valeoai/RADIal/tree/main/SignalProcessing) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
 
 # Labels
 Out of the 25,000 synchronized frames, 8,252 frames are labelled.
@@ -54,8 +54,15 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
+To download the raw dataset, please follow these instructions.
 ```
 $ wget -c -i download_urls.txt -P your_target_path
 $ unzip 'your_target_path/*.zip' -d your_target_path
 $ del -Rf your_target_path/*.zip
+```
+You will have then to use the SignalProcessing library to generate data for each modalities uppong your need.
+
+We provide too a "ready to use" dataset that can be loaded in PyTorch with the data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+```
+$ wget https://www.dropbox.com/s/gp7gr67pio8u9nb/RADIal.zip
 ```
