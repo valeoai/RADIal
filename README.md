@@ -64,5 +64,5 @@ You will have then to use the SignalProcessing library to generate data for each
 
 We provide too a "ready to use" dataset that can be loaded in PyTorch with the data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
 ```
-$ wget https://www.dropbox.com/s/gp7gr67pio8u9nb/RADIal.zip
+$ wget https://www.dropbox.com/s/bvbndch5rucyp97/RADIal.zip
 ```
