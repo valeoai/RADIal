@@ -60,9 +60,9 @@ $ wget -c -i download_urls.txt -P your_target_path
 $ unzip 'your_target_path/*.zip' -d your_target_path
 $ rm -Rf your_target_path/*.zip
 ```
-You will have then to use the SignalProcessing library to generate data for each modalities uppong your need.
+You will have then to use the SignalProcessing library to generate data for each modalities uppon your need.
 
-We provide too a "ready to use" dataset that can be loaded in PyTorch with the data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+We provide too a "ready to use" dataset that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
 ```
 $ wget https://www.dropbox.com/s/bvbndch5rucyp97/RADIal.zip
 ```
