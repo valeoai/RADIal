@@ -1,7 +1,7 @@
 # Raw High-Definition Radar for Multi-Task Learning
 
 ## Paper
-![](./FFT-RadNet Archi.png)
+![](./FFT-RadNetArchi.png)
 
 [Raw High-Definition Radar for Multi-Task Learning](https://arxiv.org/pdf/2112.10646)  
  [Julien Rebut](https://www.linkedin.com/in/julien-rebut-9803887b),  [Arthur Ouaknine](https://arthurouaknine.github.io/), [Waqas Malik](https://www.linkedin.com/in/waqas-malik-2070012b/), [Patrick Pérez](https://ptrckprz.github.io/)  
