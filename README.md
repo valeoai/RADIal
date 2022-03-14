@@ -1,8 +1,8 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
-# Latest news:
-**RADIal is available now! Check the download section.**
-However, because we are currently working on the data anonymization, we provide for now a low resolution preview video stream. The full resolution will be provided once the anonymization is completed, planned by **2022, February**. 
+# Latest news March 14th:
+**RADIal full resolution is available now! Check the download section.**
+We moved the dataset to a new location to guarantee enough download bandwith. 
 
 
 # RADIal dataset
@@ -54,15 +54,8 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
-To download the raw dataset, please follow these instructions.
-```
-$ wget -c -i download_urls.txt -P your_target_path
-$ unzip 'your_target_path/*.zip' -d your_target_path
-$ rm -Rf your_target_path/*.zip
-```
+To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/file/d/1Rk0oapTO5lITOx92ll86hmQsjNxi6KFT/view?usp=sharing)
+
 You will have then to use the SignalProcessing library to generate data for each modalities uppon your need.
 
-We provide too a "ready to use" dataset that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
-```
-$ wget https://www.dropbox.com/s/y5kptmgxcngesp7/RADIal.zip
-```
+We provide too a "ready to use" [dataset](https://drive.google.com/file/d/1PpAcL5r2PRYMxDb46ASps9YqToL7uJcE/view?usp=sharing) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
