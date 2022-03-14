@@ -54,7 +54,7 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
-To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/file/d/1Rk0oapTO5lITOx92ll86hmQsjNxi6KFT/view?usp=sharing)
+To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/drive/folders/1vCis5mvO5qg7QlM69MqJ3Ni-gFunm5uz?usp=sharing)
 
 You will have then to use the SignalProcessing library to generate data for each modalities uppon your need.
 
