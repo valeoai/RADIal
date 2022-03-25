@@ -36,7 +36,7 @@ RADIal is a unique folder containing all the recorded sequences. Each sequence i
 * And finally, a log file that provides the timestamp of each individual sensor event.
 
 We provide in a Python library [DBReader](https://github.com/valeoai/RADIal/tree/main/DBReader) to read the data.
-Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided too an optimized Python library [SignalProcessing](https://github.com/valeoai/RADIal/tree/main/SignalProcessing) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
+Because all the radar data are recorded in a RAW format, that is to say the signal after the Analog to Digital Conversion (ADC), we provided an optimized Python library [SignalProcessing](https://github.com/valeoai/RADIal/tree/main/SignalProcessing) to process the Radar signal and generate either the Power Spectrums, the Point Cloud or the Range-Azimuth map.
 
 # Labels
 Out of the 25,000 synchronized frames, 8,252 frames are labelled.
