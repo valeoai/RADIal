@@ -58,4 +58,4 @@ To download the raw dataset, please visit the following [GoogleDrive](https://dr
 
 You will have then to use the SignalProcessing library to generate data for each modalities uppon your need.
 
-We provide too a "ready to use" [dataset](https://drive.google.com/file/d/1PpAcL5r2PRYMxDb46ASps9YqToL7uJcE/view?usp=sharing) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+We provide too a "ready to use" [dataset](https://drive.google.com/file/d/1PpAcL5r2PRYMxDb46ASps9YqToL7uJcE/view?usp=sharing) (or split in [parts](https://drive.google.com/drive/folders/1RFRoJJd9ghfjRHjA8t_POwGzYdoUA1IY?usp=sharing) to ease the download) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
