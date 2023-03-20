@@ -1,9 +1,11 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
-# Latest news March 14th:
-**RADIal full resolution is available now! Check the download section.**
-We moved the dataset to a new location to guarantee enough download bandwith. 
+# Latest news:
+- **20/03/2023:** :rotating_light::construction: Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.  
 
+<!--
+- **14/03/2022:** **RADIal full resolution is available now! Check the download section.** We moved the dataset to a new location to guarantee enough download bandwith. 
+-->
 
 # RADIal dataset
 RADIal stands for “Radar,  Lidar et  al.” It's a collection of 2-hour of raw  data  from  synchronized  automotive-grade  sensors (camera,  laser,  High Definition  radar)  in  various  environments  (citystreet,  highway,  countryside  road) and comes with GPS and vehicle’s CAN traces.
@@ -54,8 +56,4 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
-To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/drive/folders/1vCis5mvO5qg7QlM69MqJ3Ni-gFunm5uz?usp=sharing)
-
-You will have then to use the SignalProcessing library to generate data for each modalities uppon your need.
-
-We provide too a "ready to use" [dataset](https://drive.google.com/file/d/1PpAcL5r2PRYMxDb46ASps9YqToL7uJcE/view?usp=sharing) (or split in [parts](https://drive.google.com/drive/folders/1RFRoJJd9ghfjRHjA8t_POwGzYdoUA1IY?usp=sharing) to ease the download) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+:rotating_light::construction: The data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. We will add here the new download instructions once the data is up again  
