@@ -18,7 +18,7 @@ With their robustness to adverse weather conditions and ability to measure speed
 Download the RADIal dataset as explained [here](https://github.com/valeoai/RADIal)
 
 ### Pre-trained models
-Pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1ehwiv8IRXSJb8aQ6mAdQGz5LqVE-HuoP?usp=sharing)
+Pre-trained models can be downloaded [here](https://drive.google.com/file/d/13zSTCm-6zY8JpBOwJCqRzBMX5OdKqfPE/view?usp=sharing)
 
 
 ### Training
