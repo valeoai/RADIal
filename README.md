@@ -56,4 +56,8 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
-:rotating_light::construction: The data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. We will add here the new download instructions once the data is up again  
+To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/drive/folders/1JHPLQsjwtO0SOgAgkq8KOqXndKaOGwFM?usp=sharing)
+
+You will have then to use the SignalProcessing library to generate data for each modalities upon your need.
+
+We provide too a "ready to use" [dataset](https://drive.google.com/drive/folders/1UJAQMr1Hv2KWsqgv_JYGd9TWea2v-Tqb?usp=sharing) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
