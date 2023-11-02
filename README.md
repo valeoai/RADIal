@@ -1,8 +1,9 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
 # Latest news:
+- **02/11/2023: :rotating_light::construction: Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.**
 - **10/04/2023:** Both the "ready to use" and the entire datasets are available again, we are sorry for the inconvenience.   
-- **20/03/2023:** :rotating_light::construction: Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.  
+- **20/03/2023:** Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.  
 
 <!--
 - **14/03/2022:** **RADIal full resolution is available now! Check the download section.** We moved the dataset to a new location to guarantee enough download bandwith. 
@@ -16,6 +17,18 @@ RADIal contains 91 sequences of 1 to 4 minutes in duration, for a total of 2 hou
 <p align="center">
   <img src="images/RADIal_statistics.png" width="360" height="320">
 </p>
+
+If you find this code useful for your research, please cite [our paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rebut_Raw_High-Definition_Radar_for_Multi-Task_Learning_CVPR_2022_paper.html):
+```
+@InProceedings{Rebut_2022_CVPR,
+               author = {Rebut, Julien and Ouaknine, Arthur and Malik, Waqas and P\'erez, Patrick},
+               title = {Raw High-Definition Radar for Multi-Task Learning},
+               booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+               month = {June},
+               year = {2022},
+               pages = {17021-17030}
+               }
+```
 
 # Sensor  specifications
 <p align="center">
