@@ -9,6 +9,8 @@
 <!--
 - **14/03/2022:** **RADIal full resolution is available now! Check the download section.** We moved the dataset to a new location to guarantee enough download bandwith. 
 -->
+# Contact Information:
+- In case of questions or further details, please contact **Waqas MALIK, waqas.malik@valeo.com** or **Arthur Ouaknine , arthur.ouaknine@gmail.com**
 
 # RADIal dataset
 RADIal stands for “Radar,  Lidar et  al.” It's a collection of 2-hour of raw  data  from  synchronized  automotive-grade  sensors (camera,  laser,  High Definition  radar)  in  various  environments  (citystreet,  highway,  countryside  road) and comes with GPS and vehicle’s CAN traces.
