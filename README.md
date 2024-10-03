@@ -1,6 +1,7 @@
 [![Watch the video](https://img.youtube.com/vi/bBEKZ7dl7zE/maxresdefault.jpg)](https://youtu.be/bBEKZ7dl7zE)
 
 # Latest news:
+- **03/10/2024:** Both the "ready to use" and the entire datasets are available again.   
 - **02/11/2023: :rotating_light::construction: Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.**
 - **10/04/2023:** Both the "ready to use" and the entire datasets are available again, we are sorry for the inconvenience.   
 - **20/03/2023:** Due to the some issues we encounter with the storage, the data is temporarily unavailale. We are currently working on a new solution to make the dataset available again as soon as possible. Thank you for your patience and understanding. We apologize for the inconvenience.  
@@ -70,8 +71,8 @@ Note that -1 in all field means a frame without any label.
 Labels for the Free-driving-space is provided as a segmentaion mask saved in a png file.
 
 # Download instructions
-To download the raw dataset, please visit the following [GoogleDrive](https://drive.google.com/drive/folders/1JHPLQsjwtO0SOgAgkq8KOqXndKaOGwFM?usp=sharing)
+To download the raw dataset, please visit the following [GoogleDrive](https://l.linklyhq.com/l/205Ok)
 
 You will have then to use the SignalProcessing library to generate data for each modalities upon your need.
 
-We provide too a "ready to use" [dataset](https://drive.google.com/drive/folders/1UJAQMr1Hv2KWsqgv_JYGd9TWea2v-Tqb?usp=sharing) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+We provide too a "ready to use" [dataset](https://l.linklyhq.com/l/205Ok) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
