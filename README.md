@@ -75,8 +75,6 @@ Labels for the Free-driving-space is provided as a segmentaion mask saved in a p
 # Download instructions
 To download the raw dataset, please visit the following [Link](https://l.linklyhq.com/l/205Ok)
 
-If you are in China, link will open up a Baidu drive, for rest of the countries it will open a Google drive
-
 You will have then to use the SignalProcessing library to generate data for each modalities upon your need.
 
 We provide too a "ready to use" [dataset](https://l.linklyhq.com/l/205Ok) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
