@@ -77,4 +77,4 @@ To download the raw dataset, please visit the following [Link](https://l.linklyh
 
 You will have then to use the SignalProcessing library to generate data for each modalities upon your need.
 
-We provide too a "ready to use" [dataset](https://l.linklyhq.com/l/205Ok) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
+We provide too a "ready to use" [dataset](https://linkly.link/2EakA) that can be loaded with the PyTorch data loader example provided in the [Loader](https://github.com/valeoai/RADIal/tree/main/loader) folder.
